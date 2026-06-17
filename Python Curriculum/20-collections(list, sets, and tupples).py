@@ -48,7 +48,7 @@ fruits.clear() #all fruits are gone in the list
 
 
 # print(dir(fruits)) #prints  different methods available to the collection
-# print(help(fruits)) #description of the method listed from the previous pring
+# print(help(fruits)) #description of the method listed from the previous print
 
 
 #sets:

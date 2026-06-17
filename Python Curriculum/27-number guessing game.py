@@ -11,10 +11,9 @@ print(f"guess the random number between {lowest_num} and {highest_num} ")
 
 while isRunning:
 
-    guess = (input("enter your guess: "))
+    guess = int(input("enter your guess: "))
 
     if guess.isdigit():
-        guess = int(guess)
         guess += 1
 
         if guess < lowest_num or guess > highest_num:

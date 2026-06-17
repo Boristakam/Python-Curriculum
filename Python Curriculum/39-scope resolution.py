@@ -1,5 +1,5 @@
 #variable scope = where a variable is visible and accessible
-#scope resolution order = LEGB (local -> encloded -> global -> built-in). that is the order of search by the compiler 
+#scope resolution order = LEGB (local -> enclosed -> global -> built-in). that is the order of search by the compiler 
 
 from math import e   # e is a global var
 
@@ -17,7 +17,7 @@ def func2():
         e = 4    # this e unlike the first is a local var
         print(x) #x is not in the local scope but in the enclosed scope
         print(h)
-        print(e) #if there are no local e var then then enclosed loop is searched and so on until a var id found or not 
+        print(e) #if there are no local e var then the enclosed loop is searched and so on until a var id found or not 
  
 func1()
 func2()

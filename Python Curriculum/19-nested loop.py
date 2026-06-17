@@ -1,7 +1,7 @@
 #nested loop = a loop within a loop (inner and outer loop)
 
-for x in range(3):
-    for y in range(1, 10):
+for x in range(3): # 3 iterations of the outer loop
+    for y in range(1, 10): # 9 iterations of the inner loop
         print(y, end="")  #the end="" is to print the result on the same line. standard print statements have a hidden line character
                             # Note: any char can be added within those double quotes (space, coma etc) and they'll be printed between each result
     print() #printing a new line

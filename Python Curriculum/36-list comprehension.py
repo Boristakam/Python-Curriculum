@@ -1,6 +1,8 @@
 #list comprehension = a concise way to create lists in python. theyre compact and easier to read than traditional loops
 #                     [expression    for   value   in    iterable   if   condition]
 
+hi=[x for x in range(1, 30)]
+print(hi)
 
 #conventional way:
 doubles = []

@@ -22,9 +22,9 @@ print(f"price 3 is ${price3:9}\n")   #9 spaces before writing the value
 
 print(f"price 1 is ${price1:>10}")
 print(f"price 2 is ${price2:<10}") 
-print(f"price 3 is ${price3:^}\n")  
+print(f"price 3 is ${price3:^10}\n") # the ^ is used to center align the value in the allocated space  
 
-print(f"price 1 is ${price1:+}")
+print(f"price 1 is ${price1:+}") # the + sign indicates that the value is positive. if the value is negative, the - sign will be used instead.
 print(f"price 2 is ${price2:+}") 
 print(f"price 3 is ${price3:+}\n")
 

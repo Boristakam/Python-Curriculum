@@ -1,5 +1,5 @@
 #executes a block of code a fixed number of times 
-#overlaps weith while loop content
+#overlaps with while loop content
 
 for x in range(1, 11):       #counts from 1 to 10 not to 11
     print(x)

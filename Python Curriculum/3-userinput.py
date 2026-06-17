@@ -5,7 +5,7 @@
 
 # simplifying the above code
 name = input("What is your name?: ")
-age = int(input("How old are you?: ")) #casting to int before return input data is always str
+age = int(input("How old are you?: ")) #casting to int before return. because input data is always str
 
 age = int(age)
 age += 1
@@ -14,7 +14,7 @@ print(f"Thanks, your name is {name}, you are {age} years old\n")
 
 
 #Exercise 1 rectangle are calc
-length = int(input("What is the length of your rectange?: "))
+length = float(input("What is the length of your rectange?: "))
 width = int(input("What is the width of your rectange?: "))
 area = length * width
 print(f"The area of your rectangle is {area} cm²")

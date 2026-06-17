@@ -8,7 +8,7 @@ def spin_row():
 
 def print_row(row):
     print("*************")
-    print(" | ".join(row))
+    print(" | ".join(row)) # join method joins the elements of the list with the string in the brackets (in this case " | ") and returns a string
     print("*************")
 
 def get_payout(row, bet):

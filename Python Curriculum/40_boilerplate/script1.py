@@ -5,8 +5,8 @@
 
 
 
-#from script2 import *  #'*' means everything 
-#print(__name__) #prints script 2 then __main__
+#from script2 import *     # means everything 
+#print(__name__)           # prints script 2 then __main__
 
 
 
